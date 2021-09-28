@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 2448,
+    "id" : "https://ben-archiveshub.github.io/polyhymnia/images/f3r/canvas/",
+    "label" : {
+      "none" : [ "f3r" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ben-archiveshub.github.io/polyhymnia/images/f3r/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ben-archiveshub.github.io/polyhymnia/images/f3r/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 77,
+              "height" : 102
+            }, {
+              "width" : 153,
+              "height" : 204
+            }, {
+              "width" : 306,
+              "height" : 408
+            }, {
+              "width" : 612,
+              "height" : 816
+            }, {
+              "width" : 1224,
+              "height" : 1632
+            }, {
+              "width" : 2448,
+              "height" : 3264
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2448,
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f3r",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3264
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2448,
+          "id" : "https://ben-archiveshub.github.io/polyhymnia/images/f3r/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3264
+        },
+        "target" : "https://ben-archiveshub.github.io/polyhymnia/images/f3r/canvas/"
+      } ]
+    } ],
+    "height" : 3264
+  }, {
+    "width" : 2448,
     "id" : "https://ben-archiveshub.github.io/polyhymnia/images/f2v/canvas/",
     "label" : {
       "none" : [ "f2v" ]
