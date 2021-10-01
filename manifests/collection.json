@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json",
-    "label" : "William Basse's Polyhymnia (Chetham's Library, Manuscripts/1/188)"
-  } ]
+  "items" : [ ]
 }
