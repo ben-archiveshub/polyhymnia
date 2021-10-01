@@ -1,0 +1,133 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ben",
+      "@type" : "oa:Tag",
+      "chars" : "Ben"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "transcription",
+      "@type" : "oa:Tag",
+      "chars" : "transcription"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "text",
+      "@type" : "oa:Tag",
+      "chars" : "text"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; .2.But stony-hearty quarryes scorne to graceThe humble entrance of such bowers as mine,The pensill proud, disdaynes, so poore a placeWith his rich oyles &amp; mineralls should shine,The humorous grape, denyes into my baseAnd wortheles Cruze to spill his sparkling wine.&nbsp;&nbsp; So looke on me, my starrs: I neither can&nbsp;&nbsp; Picture, engraue, or feast a Noble man.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; .3.But is there (Muse) no way but one of thoseFrom silence dull, our honest Cell to sheild?What though the niggard Earth dos not discloseHer wondrous Jeat, nor glistring ore vs yeild?The sage prophetique Raven to compose,Or th&rsquo;ancient knots, therwith our bower to guild.&nbsp;&nbsp; There cannot chuse, but be more wayes to frame&nbsp;&nbsp; True honours to the great Norrey'sian name.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; .4.For why share I this quill? or what doth moueThe Lawrell-louing Phoebus to allowThe neuer fadeing favours of his loveTo winde themselues about my simple brow?",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; .2.<br />But stony-hearty quarryes scorne to grace<br />The humble entrance of such bowers as mine,<br />The pensill proud, disdaynes, so poore a place<br />With his rich oyles &amp; mineralls should shine,<br />The humorous grape, denyes into my base<br />And wortheles Cruze to spill his sparkling wine.<br />&nbsp;&nbsp; So looke on me, my starrs: I neither can<br />&nbsp;&nbsp; Picture, engraue, or feast a Noble man.<br /><br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; .3.<br />But is there (Muse) no way but one of those<br />From silence dull, ou<em>r</em> honest Cell to sheild?<br />What though the niggard Earth dos not disclose<br />Her wondrous Jeat, nor glistring ore vs yeild?<br />The sage prophetique Raven to compose,<br />Or th&rsquo;ancient knots, therw<em>ith</em> our bower to guild.<br />&nbsp;&nbsp; There cannot chuse, but be more wayes to frame<br />&nbsp;&nbsp; True honours to the great Norrey'sian name.<br /><br />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; .4.<br />For why share I this quill? or what doth moue<br />The Lawrell-louing Phoebus to allow<br />The neuer fadeing favours of his love<br />To winde themselues about my simple brow?</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/51949365",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2021-09-30T19:50:30",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633031430300",
+    "dcterms:modified" : "2021-09-30T19:50:30",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=354,218,2057,2839"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M354.19048,218.19048h1028.55556v0h1028.55556v1419.28571v1419.28571h-1028.55556h-1028.55556v-1419.28571z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d04253d4-a5b2-4461-9342-f4574b8aa4ba\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ee104902-2cc6-43f9-a04f-5c188a7fed1f"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ben",
+      "@type" : "oa:Tag",
+      "chars" : "Ben"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "emendation",
+      "@type" : "oa:Tag",
+      "chars" : "emendation"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "'hearted'?",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>'hearted'?</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/51949365",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2021-09-30T19:54:32",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633031672872",
+    "dcterms:modified" : "2021-09-30T19:54:32",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=908,315,344,176"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M908.03429,314.81524h171.97143v0h171.97143v88.04v88.04h-171.97143h-171.97143v-88.04z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9ca9e7a5-5393-42ed-a98c-ad9cb8e4976f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ee104902-2cc6-43f9-a04f-5c188a7fed1f"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ben",
+      "@type" : "oa:Tag",
+      "chars" : "Ben"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "gloss",
+      "@type" : "oa:Tag",
+      "chars" : "gloss"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "'a drinking vessel' [OED]",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>'a drinking vessel' [<em>OED</em>]</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/51949365",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2021-09-30T19:53:36",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633031616762",
+    "dcterms:modified" : "2021-09-30T19:53:36",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1002,859,305,212"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1001.80952,859.33333h152.54286v0h152.54286v105.91429v105.91429h-152.54286h-152.54286v-105.91429z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_96e4d3be-3d7c-4f87-af35-ae0eb06a7238\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ee104902-2cc6-43f9-a04f-5c188a7fed1f"
+    } ]
+  } ],
+  "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf7v.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
