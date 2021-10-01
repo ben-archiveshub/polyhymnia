@@ -1,0 +1,186 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ben",
+      "@type" : "oa:Tag",
+      "chars" : "Ben"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "transcription",
+      "@type" : "oa:Tag",
+      "chars" : "transcription"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "title",
+      "@type" : "oa:Tag",
+      "chars" : "title"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "POLYHYMNIA. A Poem written by William Basse gent.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>POLYHYMNIA. A Poem written by William Basse gent.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/51949365",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2021-10-01T07:53:45",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633074825969",
+    "dcterms:modified" : "2021-10-01T07:53:45",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=199,260,2141,1943"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M199.08571,260.28571h1070.54286v0h1070.54286v971.45714v971.45714h-1070.54286h-1070.54286v-971.45714z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_6ea5eb71-132b-42fd-9663-94fa0c4718d3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://fe093995-cfac-4f76-a4a0-fdeea0c5d528"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Basse says that 'Polyhymnia' was a name given to Bridget Bertie, Baroness Norris, the dedicatee of the collection, by her parents (see ff.5r-5v).\nThe title of the collection thus underscores the nature of the manuscript as a gift to the Norris family, relatives and neighbours of Basse's employers, the Wenman family, in Oxfordshire.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Basse says that 'Polyhymnia' was a name given to Bridget Bertie, Baroness Norris, the dedicatee of the collection, by her parents (see ff.5r-5v).</p>\n<p>The title of the collection thus underscores the nature of the manuscript as a gift to the Norris family, relatives and neighbours of Basse's employers, the Wenman family, in Oxfordshire.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ben",
+      "@type" : "oa:Tag",
+      "chars" : "Ben"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "comment",
+      "@type" : "oa:Tag",
+      "chars" : "comment"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/51949365",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2021-10-01T07:52:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633074735299",
+    "dcterms:modified" : "2021-10-01T10:58:10",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=269,342,2001,468"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M269.02857,341.88571h1000.6v0h1000.6v234.14286v234.14286h-1000.6h-1000.6v-234.14286z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_91ba6233-a805-4e5a-9d82-71ffee93224e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"25.90476\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://fe093995-cfac-4f76-a4a0-fdeea0c5d528"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "William Basse (c. 1583-1653?) was a lifelong servant of the Wenman family in Oxfordshire (what kind of servant is not entirely clear, although he describes himself at one point as a 'retainer'). He was also a published poet, with links to literary circles in England in the first half of the 17th Century, who circulated his work in both print and manuscript. He appears to have known William Browne, Ralph Bathurst, and Izaak Walton, and may have known others. He is now best remembered as the author of an epitaph on Shakespeare.\nHe styles himself 'gent.' on the title-page here, and seems to have acquired property of his own close to the Wenman estates later in life.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>William Basse (c. 1583-1653?) was a lifelong servant of the Wenman family in Oxfordshire (what kind of servant is not entirely clear, although he describes himself at one point as a 'retainer'). He was also a published poet, with links to literary circles in England in the first half of the 17th Century, who circulated his work in both print and manuscript. He appears to have known William Browne, Ralph Bathurst, and Izaak Walton, and may have known others. He is now best remembered as the author of an epitaph on Shakespeare.</p>\n<p>He styles himself 'gent.' on the title-page here, and seems to have acquired property of his own close to the Wenman estates later in life.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ben",
+      "@type" : "oa:Tag",
+      "chars" : "Ben"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "name (person)",
+      "@type" : "oa:Tag",
+      "chars" : "name (person)"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "comment",
+      "@type" : "oa:Tag",
+      "chars" : "comment"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/51949365",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2021-10-01T10:45:38",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633085138925",
+    "dcterms:modified" : "2021-10-01T10:47:18",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=566,1677,1751,477"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M565.74603,1677.49206h875.28571v0h875.28571v238.46032v238.46032h-875.28571h-875.28571v-238.46032z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_0bc2248a-9392-41d5-8ad4-e6392941f2d4\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"25.90476\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://fe093995-cfac-4f76-a4a0-fdeea0c5d528"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "The epigraph to the volume is taken from Horace's Odes, Book I:6.\nThe Latin text (as given by Basse) reads:\n'Nos convivia, nos proelia virginum,\nSectis in juvenes unguibus acrium,\nCantamus: vacui, sive quod urimur,\nNon praeter solitum leves.'\nIn English translation:\n'I sing but of banquets, I sing but of combats of maidens fiercely attacking the young men with trimmed nails, easy as is my wont, whether fancy free or fired by a spark of love.' [Loeb translation, C.E. Bennett]\nIn this ode, Horace disclaims his ability to write about war-like subjects, claiming instead that he is more suited to lyric poetry. Basse is presumably hinting at the local and leisurely subjects of his own poems in the Polyhymnia, although there still seem to be points of connection with the violence of the English Civil War (see for instance, 'An Elegie of a rare singing Bull-fynch, found dead in his Cage in the cold &amp; wet June 19: 1648.' (ff.45r-50r).",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>The epigraph to the volume is taken from Horace's <em>Odes</em>, Book I:6.</p>\n<p>The Latin text (as given by Basse) reads:</p>\n<p>'Nos convivia, nos proelia virginum,</p>\n<p>Sectis in juvenes unguibus acrium,</p>\n<p>Cantamus: vacui, sive quod urimur,</p>\n<p>Non praeter solitum leves.'</p>\n<p>In English translation:</p>\n<p>'I sing but of banquets, I sing but of combats of maidens fiercely attacking the young men with trimmed nails, easy as is my wont, whether fancy free or fired by a spark of love.' [Loeb translation, C.E. Bennett]</p>\n<p>In this ode, Horace disclaims his ability to write about war-like subjects, claiming instead that he is more suited to lyric poetry. Basse is presumably hinting at the local and leisurely subjects of his own poems in the <em>Polyhymnia</em>, although there still seem to be points of connection with the violence of the English Civil War (see for instance, 'An Elegie of a rare singing Bull-fynch, found dead in his Cage in the cold &amp; wet June 19: 1648.' (ff.45r-50r).</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Ben",
+      "@type" : "oa:Tag",
+      "chars" : "Ben"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "transcription",
+      "@type" : "oa:Tag",
+      "chars" : "transcription"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "comment",
+      "@type" : "oa:Tag",
+      "chars" : "comment"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "epigraph",
+      "@type" : "oa:Tag",
+      "chars" : "epigraph"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/51949365",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2021-10-01T07:57:38",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1633075058764",
+    "dcterms:modified" : "2021-10-01T10:39:07",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=339,2225,1832,812"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M338.97143,2224.51429h916.08571v0h916.08571v406.08571v406.08571h-916.08571h-916.08571v-406.08571z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_20104497-dd17-404a-88d4-65961f7a0c71\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"28.78307\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://fe093995-cfac-4f76-a4a0-fdeea0c5d528"
+    } ]
+  } ],
+  "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf4r.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
