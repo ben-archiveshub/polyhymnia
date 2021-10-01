@@ -1,0 +1,387 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ben-archiveshub.github.io/polyhymnia/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "William Basse's Polyhymnia (Chetham's Library, Manuscripts/1/188)",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/51949365/manifests/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "William Basse"
+  }, {
+    "label" : "Date",
+    "value" : "Copied between 1648 and 1653. Some of the poems themselves are of earlier date."
+  }, {
+    "label" : "Extent",
+    "value" : "57 leaves; 8.7  x  15  cm"
+  }, {
+    "label" : "Scribe",
+    "value" : "Unknown"
+  } ],
+  "description" : [ {
+    "@value" : "A presentation manuscript gifted to the Norris family of Rycote House in Oxfordshire in the late 1640s or early 1650s. It brought together poems by William Basse, a servant of the Wenman family of nearby Thame Park, also in Oxfordshire. Basse was a published poet as well as a 'retainer' to the Wenman family, and is now best known as the author of an elegy on Shakespeare.",
+    "@language" : "en"
+  } ],
+  "thumbnail" : {
+    "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/binding/full/full/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/binding",
+      "profile" : "http://iiif.io/api/image/2/level0.json"
+    }
+  },
+  "license" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "attribution" : "Chetham's Library, Manchester",
+  "sequences" : [ {
+    "@id" : "http://f658e965-2427-49b3-b182-580f3acf3698",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://fe093995-cfac-4f76-a4a0-fdeea0c5d528",
+      "@type" : "sc:Canvas",
+      "label" : "f4r",
+      "description" : "title page",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f4r/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306,
+        "service" : {
+          "@context" : "http://iiif.io/api/image/2/context.json",
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f4r",
+          "profile" : "http://iiif.io/api/image/2/level0.json"
+        }
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f284c984-79e7-4375-9865-5cead888bbb2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f4r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f4r",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://fe093995-cfac-4f76-a4a0-fdeea0c5d528"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf4r.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f4r"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4c4047ec-3cd5-454b-a067-34ee82f4b1b2",
+      "@type" : "sc:Canvas",
+      "label" : "f5r",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f5r/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://da789879-48b7-4c1e-957d-deea424a0039",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f5r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f5r",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://4c4047ec-3cd5-454b-a067-34ee82f4b1b2"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf5r.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f5r"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://df71719f-9b9f-492f-b458-64531cefbc38",
+      "@type" : "sc:Canvas",
+      "label" : "f5v",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f5v/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f419f664-7312-4870-b091-7daa38d3a07a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f5v/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f5v",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://df71719f-9b9f-492f-b458-64531cefbc38"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf5v.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f5v"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8dc305f5-ec04-4141-8c4b-7c410d8c8836",
+      "@type" : "sc:Canvas",
+      "label" : "f6r",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f6r/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://47e3726f-9774-4b98-a887-05b8c1b676ff",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f6r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f6r",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://8dc305f5-ec04-4141-8c4b-7c410d8c8836"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf6r.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f6r"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5ee0079c-901c-48fb-bf24-d694c8129963",
+      "@type" : "sc:Canvas",
+      "label" : "f7r",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f7r/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1edb8ab4-d3d4-48cf-8fa9-c59e233d7ff1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f7r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f7r",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://5ee0079c-901c-48fb-bf24-d694c8129963"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf7r.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f7r"
+      } ]
+    }, {
+      "@id" : "http://ee104902-2cc6-43f9-a04f-5c188a7fed1f",
+      "@type" : "sc:Canvas",
+      "label" : "f7v",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f7v/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://417aff3c-6d57-4910-a7ac-c859d35c60df",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f7v/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f7v",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://ee104902-2cc6-43f9-a04f-5c188a7fed1f"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf7v.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f7v"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://123c8e68-40b3-4c18-8e80-7fed55bc67ca",
+      "@type" : "sc:Canvas",
+      "label" : "f8r",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f8r/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://79aad7f8-045b-49ff-a0b4-bcbb71a164bc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f8r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f8r",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://123c8e68-40b3-4c18-8e80-7fed55bc67ca"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf8r.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f8r"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://123c8e68-40b3-4c18-8e80-7fed55bc298v",
+      "@type" : "sc:Canvas",
+      "label" : "f8v",
+      "height" : 3264,
+      "width" : 2448,
+      "thumbnail" : {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f8v/0,0,2448,3264/306,/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "height" : 408,
+        "width" : 306
+      },
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://79aad7f8-045b-49ff-a0b4-bcbb71a18vbc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f8v/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ben-archiveshub.github.io/polyhymnia/images/f8v",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3264,
+          "width" : 2448
+        },
+        "on" : "http://123c8e68-40b3-4c18-8e80-7fed55bc298v"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf8v.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Annotations f8v"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://localhost:3000/polyhmnia/range/index",
+    "@type" : "sc:Range",
+    "label" : "Table of Contents",
+    "members" : [ {
+      "@id" : "http://localhost:3000/polyhmnia/range/title_page",
+      "@type" : "sc:Range",
+      "label" : "Title page"
+    }, {
+      "@id" : "http://localhost:3000/polyhmnia/range/poem_1",
+      "@type" : "sc:Range",
+      "label" : "To the right noble and vertuous...Lady Bridget"
+    }, {
+      "@id" : "http://localhost:3000/polyhmnia/range/poem_2",
+      "@type" : "sc:Range",
+      "label" : "Verses to...Francis Lord Norreys"
+    } ]
+  }, {
+    "@id" : "http://localhost:3000/polyhmnia/range/title_page",
+    "@type" : "sc:Range",
+    "label" : "Title page",
+    "canvases" : [ "http://fe093995-cfac-4f76-a4a0-fdeea0c5d528" ]
+  }, {
+    "@id" : "http://localhost:3000/polyhmnia/range/poem_1",
+    "@type" : "sc:Range",
+    "label" : "To the right noble and vertuous...Lady Bridget",
+    "canvases" : [ "http://4c4047ec-3cd5-454b-a067-34ee82f4b1b2", "http://df71719f-9b9f-492f-b458-64531cefbc38", "http://8dc305f5-ec04-4141-8c4b-7c410d8c8836" ]
+  }, {
+    "@id" : "http://localhost:3000/polyhmnia/range/poem_2",
+    "@type" : "sc:Range",
+    "label" : "Verses to...Francis Lord Norreys",
+    "canvases" : [ "http://5ee0079c-901c-48fb-bf24-d694c8129963", "http://ee104902-2cc6-43f9-a04f-5c188a7fed1f", "http://123c8e68-40b3-4c18-8e80-7fed55bc67ca", "http://123c8e68-40b3-4c18-8e80-7fed55bc298v" ]
+  } ],
+  "logo" : "http://185.121.204.150/ChethamLibrary/images/logo.png",
+  "related" : {
+    "@id" : "http://185.121.204.150/ChethamLibrary/#/details/ecatalogue/9250",
+    "label" : "Chetham's Library catalogue record for the manuscript.",
+    "format" : "text/html"
+  },
+  "viewingDirection" : "left-to-right",
+  "viewingHint" : "individuals"
+}
