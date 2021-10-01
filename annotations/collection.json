@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf5r.json", "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf4r.json", "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf5v.json" ],
+  "otherContent" : [ "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf5r.json", "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf4r.json", "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf5v.json", "https://ben-archiveshub.github.io/polyhymnia/annotations/annotationsf6r.json" ],
   "@id" : "https://ben-archiveshub.github.io/polyhymnia/annotations/collection.json",
   "label" : "All annotations loaded in ben-archiveshub/polyhymnia project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
