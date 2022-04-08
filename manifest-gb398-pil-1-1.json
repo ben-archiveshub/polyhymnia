@@ -1,0 +1,135 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+
+    "id": "http://0.0.0.0:8000/manifest-gb398-pil-1-1.json",
+
+    "type": "Manifest",
+    
+    "label": { 
+        "en": [ "A one inch to one foot scale drawing of a sail. This is perhaps an improved plan of his cyclone or umbrella sail." ] 
+    },
+
+    "metadata": [
+      {
+        "label": { "en": [ "Level" ] },
+        "value": { "en": [ "Item" ] }
+    },
+      {
+          "label": { "en": ["Creator" ] },
+          "value": { "en": [ "Pilcher, Percy Sinclair, 1866-1899, Aeronautical pioneer." ] }
+      },
+      {
+          "label": { "en": [ "Date" ] },
+          "value": { "en": [ "15/03/1898" ] }
+      },
+      {
+        "label": { "en": [ "Extent" ] },
+        "value": { "en": [ "1 drawing" ] }
+    }
+  ],
+
+    "summary": [
+      { 
+          "en": [ "Item is signed and dated by P.S. Pilcher and stamped Managing Director, Wilson and Pilcher Limited." ] 
+        }
+  ],
+
+    "thumbnail": [
+      {
+          "id": "http://localhost:8182/iiif/3/pil-1-1.jpg/full/94,75/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "height": 75,
+          "width": 94
+      }
+
+  ],
+
+    "provider": [
+        {
+            "id": "https://archiveshub.jisc.ac.uk/about/",
+            "type": "Agent",
+            "label": { 
+                "en": [ "Archives Hub" ] 
+            },
+            "homepage": [
+                {
+                  "id": "https://archiveshub.jisc.ac.uk",
+                  "type": "Text",
+                  "label": { 
+                      "en": [ "Archives Hub homepage" ] 
+                    },
+                  "format": "text/html"
+                }
+              ],
+            "logo": [
+              {
+                "id": "https://archiveshub.jisc.ac.uk/images/logo.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 100,
+                "width": 120
+              }
+            ]
+        },
+        {
+          "id": "https://contributor.ac.uk/about/",
+          "type": "Agent",
+          "label": { 
+              "en": [ "National Aerospace Library" ] 
+          },
+          "homepage": [
+              {
+                "id": "https://contributor.ac.uk",
+                "type": "Text",
+                "label": { 
+                    "en": [ "National Aerospace Library homepage" ] 
+                  },
+                "format": "text/html"
+              }
+            ],
+            "logo": [
+              {
+                "id": "https://contributor.ac.uk/images/logo.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 100,
+                "width": 120
+              }
+            ]
+      }
+    ],
+
+    "items": [
+        {
+          "id": "http://localhost:8182/iiif/3/pil-1-1",
+          "type": "Canvas",
+          "label": { 
+            "en": [ "A one inch to one foot scale drawing of a sail. This is perhaps an improved plan of his cyclone or umbrella sail." ] 
+        },  
+          "height": 1196,
+          "width": 1500,
+          "items": [
+            {
+              "id": "http://localhost:8182/iiif/3/pil-1-1.jpg",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "http://localhost:8182/iiif/3/pil-1-1.jpg/info.json",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "http://localhost:8182/iiif/3/pil-1-1.jpg/full/max/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpg",
+                    "height": 1196,
+                    "width": 1500
+                  },
+                  "target": "http://localhost:8182/iiif/3/pil-1-1"
+                }
+                    ] 
+                }
+            ] 
+        }
+    ]
+}
